@@ -109,7 +109,7 @@ postalesFaltantesS =  postalesFaltantesS = "Las postales faltantes son: \n";
         }
           
   if (postalesFaltantes.size() == 0){
-       postalesFaltantesS =  postalesFaltantesS + "\\033[34mLo lograste has completado este album!!!!";
+       postalesFaltantesS =  postalesFaltantesS + "Lo lograste has completado este album!!!!";
   }
   else{
   Iterator itF = postalesFaltantes.iterator(); 
